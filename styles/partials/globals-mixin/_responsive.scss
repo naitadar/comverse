@@ -1,0 +1,36 @@
+// # ------------------- SNIP -------------------
+// snippet respond
+
+//  @include mobile { background: red; }
+//  @include tablet { background: red; }
+//  @include desktop { background: green; }
+// endsnippet
+// # ------------------- SNAP -------------------
+
+$mobile-width: 768px;
+$desktop-width: 992px;
+$full-width: 1170px;
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+   @media (min-width: #{$mobile-width}) {
+     @content;
+   }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin full_width {
+  @media (min-width: #{$full-width}) {
+    @content;
+  }
+}
