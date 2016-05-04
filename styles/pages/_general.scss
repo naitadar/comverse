@@ -1,16 +1,10 @@
 
 body {
 	font: 16px/20px "Open Sans Hebrew", Arial, sans-serif;
-	overflow-y: hidden;
-	text-align: right;
-	min-width: 961px;
-	margin: 0 auto;
-	direction: rtl;
 	color: $Blue;
-	background: red;
-	@include mobile { min-width: 320px; }
 }
 a { 
-	color: $Blue;
 	position: relative;
+	color: $Blue;
 }
+

@@ -107,7 +107,6 @@ In your scss:
 Helper to ease the use of inline-blocks -
 The faster, more usable and more sane use of aligning elements horizontally.
 */
-body { font: 16px/20px "Open Sans Hebrew", Arial, sans-serif; overflow-y: hidden; text-align: right; min-width: 961px; margin: 0 auto; direction: rtl; color: #275481; background: red; }
-@media (max-width: 768px) { body { min-width: 320px; } }
+body { font: 16px/20px "Open Sans Hebrew", Arial, sans-serif; color: #275481; }
 
-a { color: #275481; position: relative; }
+a { position: relative; color: #275481; }
