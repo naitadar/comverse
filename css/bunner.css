@@ -1,0 +1,82 @@
+.slides_bunner {
+	background: url(../img/slide-bg-complexity.jpg) center center;
+	display: inline-block;
+	position: absolute;
+	overflow: hidden;
+	height: 638px;
+	z-index: -9;
+	width: 98vw;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.slides_bunner figure:target {
+	display: block;
+}
+.slides_bunner figure {
+	display: none;
+}
+
+.comverse_main {
+	color: #fff;
+}
+.comverse_main h1 {
+	margin: 30px 0 20px 0; 
+}
+.learn_more {
+    font: 400 14px/14px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: #2d93c8;
+	padding: 10px;
+	width: 200px;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+}
+.slids_dots li {
+	display: inline-block;
+	margin: 10px 6px 60px 0;
+}
+.slids_dots li a {
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	border-radius: 3px;
+	display: inline-block;
+	background: #fff;
+}
+.slids_dots li a:hover {
+	background: #2d93c8;
+}
+.learn_more img {
+	float: right;
+}
+.comverse_main_boxes {
+	width: 29%;
+	float: left;
+	border-radius: 7px;
+	padding: 14px 10px;
+	margin: 0 18px 0 0;
+}
+.comverse_main_boxes h3 {
+    font: 300 21px/27px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.comverse_main_boxes .read_more {
+    font: 600 14px/27px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+.comverse_main_boxes .read_more:hover {
+	text-decoration: underline;
+}
+.global_market {
+	background: rgba(255,51,153,0.9);
+}
+.congress {
+	background: rgba(90,190,40,0.9);
+}
+.possibilities {
+	background: rgba(255,102,0,0.9);
+}
+.comverse_services {
+	clear: both;
+}
