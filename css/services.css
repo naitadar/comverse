@@ -1,0 +1,42 @@
+.comverse_services {
+	background: rgba(73,166,203,1);
+	background: -moz-linear-gradient(left, rgba(73,166,203,1) 0%, rgba(103,198,224,1) 50%, rgba(73,166,203,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,166,203,1)), color-stop(50%, rgba(103,198,224,1)), color-stop(100%, rgba(73,166,203,1)));
+	background: -webkit-linear-gradient(left, rgba(73,166,203,1) 0%, rgba(103,198,224,1) 50%, rgba(73,166,203,1) 100%);
+	background: -o-linear-gradient(left, rgba(73,166,203,1) 0%, rgba(103,198,224,1) 50%, rgba(73,166,203,1) 100%);
+	background: -ms-linear-gradient(left, rgba(73,166,203,1) 0%, rgba(103,198,224,1) 50%, rgba(73,166,203,1) 100%);
+	background: linear-gradient(to right, rgba(73,166,203,1) 0%, rgba(103,198,224,1) 50%, rgba(73,166,203,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49a6cb', endColorstr='#49a6cb', GradientType=1 );
+	padding: 0 0 50px 0;
+	text-align: center;
+}
+.comverse_services h2 {
+	font: 300 42px/132px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: #fff;
+
+}
+.comverse_services h4 {
+	font: 400 16px/20px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 0 9px;
+
+	color: #fff;
+}
+.comverse_services a:hover h4 {
+	text-decoration: underline;
+}
+.comverse_services li {
+	display: inline-block;
+}
+
+.comverse_solutions_link  {
+	margin: 23px 0 0 0;
+}
+.comverse_solutions_link a {
+	background: #318cad;
+	color: #fff;
+	padding: 10px;
+	margin: 15px 0 0 0;
+	border-radius: 5px;
+}
+.comverse_solutions_link a img { margin: 0 0 0 11px; }
