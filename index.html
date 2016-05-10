@@ -4,36 +4,46 @@
     <meta charset="UTF-8">
     <title>Comverse by naitadar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/header.css" media="screen">
   </head>
  <body>
     
     <header>
-        <a href="http://www.comverse.com">
-            <img src="img/comverse-logo.png" alt="Comverse Logo">
-        </a>
-        <form id="siteSearchBox" role="search">
-            <input id="siteSearch" name="siteSearch" type="search">
-            <button id="submit" type="submit">
-                <img id="site-search-icon" src="img/searchBtn.png" alt="magnifying glass icon">
-            </button>
-        </form>
+        <div class="wrapper">
+            <a href="http://www.comverse.com">
+                <img src="img/comverse-logo.png" alt="Comverse Logo" class="logo">
+            </a>
             
-        <select name="site-language" id="site-language">
-             <option value="English" selected="">EN</option>
-             <option value="Hebrew">HEB</option>
-             <option value="Russian">RU </option>
-        </select>
+            <nav id="site-navigation-block">
+                <ul class="site-navigation">
+                    <li><a href="#">YOUR NEEDS</a></li>
+                    <li><a href="#">OUR PORTFOLIO</a></li>
+                    <li><a href="#">NEWS &amp; MEDIA</a></li>
+                    <li><a href="#">ABOUT COMVERSE</a></li>
+                </ul>
+            </nav>
 
-        <a href="#" id="site-login" role="login">Customer login</a>
-        <nav id="site-navigation-block">
-            <ul class="site-navigation">
-                <li><a href="#">YOUR NEEDS</a></li>
-                <li><a href="#">OUR PORTFOLIO</a></li>
-                <li><a href="#">NEWS &amp; MEDIA</a></li>
-                <li><a href="#">ABOUT COMVERSE</a></li>
-            </ul>
-        </nav>
+            <div class="login_and_search">   
+                <div class="login">
+                    <select name="site-language" id="site-language">
+                         <option value="English" selected="">EN</option>
+                         <option value="Hebrew">HEB</option>
+                         <option value="Russian">RU </option>
+                    </select>
+                    <a href="#" id="site-login" role="login" class="cust_login">Customer login</a>
+                </div>
+
+                <form id="siteSearchBox" role="search" class="search_section">
+                    <input id="siteSearch" name="siteSearch" type="search">
+                    <button id="submit" type="submit">
+                        <img id="site-search-icon" src="img/searchBtn.png" alt="magnifying glass icon">
+                    </button>
+                </form>
+            </div>    
+        </div>
     </header>
     <main>        
         <section class="comverse_main">

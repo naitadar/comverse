@@ -1,0 +1,86 @@
+/*
+  ========================================
+  Primary Header
+  ========================================
+*/
+
+header {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+	padding: 7px 0 5px 0;
+}
+select { border:0; outline: none; }
+header nav,
+header form,
+header li {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.logo {
+	padding: 4px 0 5px 0;
+}
+.cust_login:before {
+	padding: 0 11px 0 0;
+}
+/*
+  ========================================
+  Search input & Button
+  ========================================
+*/
+.login_and_search {
+	float: right;
+}
+.login {
+	font: 400 14px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 0 20px 0;
+}
+.search_section {
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	height: 26px;
+}
+.search_section input {
+	font: 300 14px/16px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 3px 0 0 8px;
+	outline: none;
+	width: 160px;
+	border: 0;
+}
+.search_section button {
+	position: absolute;
+	background: #fff;
+	cursor: pointer;
+	outline: none;
+	z-index: 99;
+	border: 0;
+	top: 1px;
+	right: 0;
+}
+
+/*divider*/
+.cust_login:before,
+.search_section button:before,
+.site-navigation li:after {
+	content: '';
+	background: url('../img/divider.png') no-repeat;
+	width: 5px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*
+  ========================================
+  Nav
+  ========================================
+*/
+.site-navigation { margin: 0 0 0 40px; }
+.site-navigation li {
+	font: 400 14px/16px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.site-navigation li:after {    margin: 0 0 0 15px;}
+.site-navigation li:last-child:after {
+	opacity: 0;
+}
