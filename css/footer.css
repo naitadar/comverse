@@ -1,7 +1,9 @@
 footer {
 	background: #2a2a2a;
 	color: #fff;
+	padding: 50px 0;
 }
-.comverse_success h2 {
-	color: #000 ;
+footer section {
+	display: inline-block;
+	width: 20%;
 }
