@@ -1,7 +1,7 @@
 .slides_bunner {
 	background: url(../img/slide-bg-complexity.jpg) center center;
 	display: inline-block;
-	position: absolute;
+	position: fixed;
 	overflow: hidden;
 	height: 638px;
 	z-index: -9;
@@ -69,15 +69,12 @@
 .comverse_main_boxes .read_more:hover {
 	text-decoration: underline;
 }
-.global_market {
-	background: rgba(255,51,153,0.9);
-}
-.congress {
-	background: rgba(90,190,40,0.9);
-}
-.possibilities {
-	background: rgba(255,102,0,0.9);
-}
+.global_market { background: rgba(255,51,153,0.8); }
+.global_market:hover { background: rgba(255,51,153,1); }
+.congress { background: rgba(90,190,40,0.8); }
+.congress:hover { background: rgba(90,190,40,1); }
+.possibilities { background: rgba(255,102,0,0.8); }
+.possibilities:hover { background: rgba(255,102,0,1); }
 .comverse_services {
 	clear: both;
 }
