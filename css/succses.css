@@ -35,12 +35,14 @@
 	margin: 0;
 }
 .comverse_success .row blockquote:before {
-	content: '"';
-    font-size: 45px;
-    position: relative;
-    top: 18px;
-    font-family: -webkit-body;
-    color: #ccc;
+	content: '';
+	background: url(../img/icons/quote_grey.png);
+	width: 26px;
+	height: 20px;
+	position: relative;
+	top: 0;
+	color: #ccc;
+	display: inline-block;
 }
 .comverse_success blockquote {
 	margin: 0;
