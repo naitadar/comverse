@@ -29,10 +29,31 @@
 	margin: 0 0 10px 0;
 }
 .small_boxes img {
-	margin: 0 10px 0 0;
+	/*margin: 0 10px 0 0;*/
 }
 .small_boxes img:nth-child(3) {
 	margin: 0;
+}
+.small_boxes > div {
+	margin: 0 10px 0 0;
+	position: relative;
+	display: inline-block;
+	width: 108px;
+	height: 95px;
+	overflow: hidden;
+}
+.small_boxes > div:last-child { margin: 0; }
+.small_boxes > div img {
+	transition: top 0.2s, ease-in-out;
+	top: 0;
+	position: absolute;
+}
+.small_boxes > div:hover img {
+	transition: top 0.2s, ease-in-out;
+	top: -96px;
+}
+.small_boxes > div {
+	background: url(../img/success-stories/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg) no-repeat;
 }
 .comverse_success .row blockquote:before {
 	content: '';
