@@ -30,7 +30,7 @@
 }
 .day_and_month .day {
 	font: 400 46px/68px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	border-bottom: 1px dashed #fff;
+	border-bottom: 1px dotted #fff;
 	display: block;
 	padding: 0px 8px 0px;
 	vertical-align: top;

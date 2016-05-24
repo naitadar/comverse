@@ -1,11 +1,12 @@
 .comverse_services {
-	background: rgba(73,166,203,1);
-	background: -moz-linear-gradient(left, rgba(73,166,203,1) 0%, rgba(103,198,224,1) 50%, rgba(73,166,203,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,166,203,1)), color-stop(50%, rgba(103,198,224,1)), color-stop(100%, rgba(73,166,203,1)));
-	background: -webkit-linear-gradient(left, rgba(73,166,203,1) 0%, rgba(103,198,224,1) 50%, rgba(73,166,203,1) 100%);
-	background: -o-linear-gradient(left, rgba(73,166,203,1) 0%, rgba(103,198,224,1) 50%, rgba(73,166,203,1) 100%);
-	background: -ms-linear-gradient(left, rgba(73,166,203,1) 0%, rgba(103,198,224,1) 50%, rgba(73,166,203,1) 100%);
-	background: linear-gradient(to right, rgba(73,166,203,1) 0%, rgba(103,198,224,1) 50%, rgba(73,166,203,1) 100%);
+	background:url(../img/backgrounds/solutions-bg.png) repeat, rgba(73,166,203,1);
+	background:url(../img/backgrounds/solutions-bg.png) repeat, -moz-linear-gradient(left, rgba(73,166,203,1) 0%, rgba(103,198,224,1) 50%, rgba(73,166,203,1) 100%);
+	background:url(../img/backgrounds/solutions-bg.png) repeat, -webkit-gradient(left top, right top, color-stop(0%, rgba(73,166,203,1)), color-stop(50%, rgba(103,198,224,1)), color-stop(100%, rgba(73,166,203,1)));
+	background:url(../img/backgrounds/solutions-bg.png) repeat, -webkit-linear-gradient(left, rgba(73,166,203,1) 0%, rgba(103,198,224,1) 50%, rgba(73,166,203,1) 100%);
+	background:url(../img/backgrounds/solutions-bg.png) repeat, -o-linear-gradient(left, rgba(73,166,203,1) 0%, rgba(103,198,224,1) 50%, rgba(73,166,203,1) 100%);
+	background:url(../img/backgrounds/solutions-bg.png) repeat, -ms-linear-gradient(left, rgba(73,166,203,1) 0%, rgba(103,198,224,1) 50%, rgba(73,166,203,1) 100%);
+	background:url(../img/backgrounds/solutions-bg.png) repeat, 
+	linear-gradient(to right, rgba(73,166,203,1) 0%, rgba(103,198,224,1) 50%, rgba(73,166,203,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49a6cb', endColorstr='#49a6cb', GradientType=1 );
 	padding: 0 0 50px 0;
 	text-align: center;
