@@ -46,9 +46,12 @@
 	font: 400 16px/25px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .event_box .more_btn {
-	display: inline-block; 
+	display: inline-block;
 	margin: 5px 0 0 0;
 	color: #fff;
+}
+.event_box .more_btn:hover {
+	color: #000;
 }
 .event_box .icon {
 	background: url(../img/events/eventListIconEvents.png) no-repeat center center;
@@ -59,8 +62,6 @@
 	top: 4px;
 	margin: 0 4px 0 0;
 }
-.event_box .more_btn:hover { color: #000;}
-.event_box .more_btn .all_news{ top: 6px; background: url(../img/events/eventListIconNews.png) no-repeat center center; }
-.event_box .more_btn:hover .all_news{ background: url(../img/events/eventListIconNews_hover.png) no-repeat center center; }
-.event_box .more_btn .all_events{ background: url(../img/events/eventListIconEvents.png) no-repeat center center; }
-.event_box .more_btn:hover .all_events{ background: url(../img/events/eventListIconEvents_hover.png) no-repeat center center; }
+.event_box i {
+	margin: 0 5px 0 0;
+}

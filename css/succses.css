@@ -55,11 +55,9 @@
 .small_boxes > div {
 	background: url(../img/success-stories/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg) no-repeat;
 }
-.comverse_success .row blockquote:before {
-	content: '';
-	background: url(../img/icons/quote_grey.png);
-	width: 26px;
-	height: 20px;
+.comverse_success .row blockquote:before,
+.comverse_success .row blockquote:after {
+	content: url(../img/icons/quote_grey.png);
 	position: relative;
 	top: 0;
 	color: #ccc;
