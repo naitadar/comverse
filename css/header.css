@@ -9,7 +9,9 @@ header {
 	padding: 7px 0 5px 0;
 	background: #fff;
 	margin: -22px 0 0 0;
-
+}
+header .wrapper {
+	position: relative;
 }
 select { border:0; outline: none; }
 header nav,
@@ -18,7 +20,59 @@ header li {
 	display: inline-block;
 	vertical-align: bottom;
 }
-
+header .site-navigation > li  {
+	float: left;
+}
+header .site-navigation > li > a {
+	padding: 10px 10px 0;
+	border: 1px solid transparent;
+	background: #fff;
+}
+header .site-navigation > li:hover > a {
+	box-shadow: -5px 9px 8px rgba(0,0,0,0.4);
+	border: 1px solid #D5D5D5;
+	padding-bottom:20px ;
+	color: #3399cc;
+}
+header .site-navigation > li:hover > div {
+	display: block;
+}
+header .site-navigation > li > div {
+	background: #fff;
+	display: none;
+	position: absolute;
+	margin-top:9px;
+	left: 0px;
+	width: 100%;
+	clear: both;
+	padding: 20px;
+}
+.site-navigation a:hover {
+	color: #3399cc;
+}
+.left_box {
+	float: left;
+	width: 60%;
+}
+.left_box ul {
+	width:210px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 20px 0 0;
+}
+.left_box ul li {
+	display: block;
+	margin: 0 0 10px 0;
+}
+.left_box ul li .headline {
+	text-decoration: underline;
+	color: #3399cc;
+}
+.right_img {
+	float: right;
+	border-left: 1px solid #ccc;
+	padding:0 0 0 50px;
+}
 .logo {
 	padding: 4px 0 5px 0;
 }
@@ -83,7 +137,7 @@ header li {
 .site-navigation li {
 	font: 400 14px/16px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.site-navigation li:after {    margin: 0 0 0 15px;}
+.site-navigation li:after { display: none;}
 .site-navigation li:last-child:after {
 	opacity: 0;
 }
