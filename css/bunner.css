@@ -88,8 +88,9 @@
 	.comverse_main_boxes:last-child {
 		margin: 0 0 7px 0;
 	}
+	.slids_dots  { margin: 0 0 0 10px;}
 	.slids_dots li {
-		margin: 10px 6px 10px 0;
+		margin: 0 6px 10px 0;
 	}
 	.comverse_main h1 {
 		margin: 10px;

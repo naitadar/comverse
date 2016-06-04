@@ -167,6 +167,9 @@ header .site-navigation > li > div {
 		border-radius: 3px;
 	}
 	#submit { display: none; }
+	input[type=checkbox].search_checkbox:checked + label{
+		color: #B3ABB3;
+	}
 	input[type=checkbox].search_checkbox:checked ~ #siteSearchBox {
 		top: 57px;
 		height: 42px;
@@ -211,6 +214,9 @@ header .site-navigation > li > div {
 		border-radius: 3px;
 	}
 
+	input[type=checkbox].menu_checkbox:checked + label {
+		color: #3399cc;
+	}
 	input[type=checkbox].menu_checkbox:checked ~ #site-navigation-block {
 		left: 0;
 		height: 196px;
