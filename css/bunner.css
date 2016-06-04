@@ -71,3 +71,18 @@
 .comverse_services {
 	clear: both;
 }
+@media only screen and (max-width: 970px) {
+	.comverse_main {
+		height: auto;
+	}
+	.comverse_main_boxes {
+		float: none;
+		width: 100%;
+		margin: 0 0 7px 0;
+		box-sizing: border-box;
+	}
+	.comverse_main_boxes:last-child {
+		margin: 0 0 7px 0;
+
+	}
+	}

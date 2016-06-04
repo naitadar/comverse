@@ -44,7 +44,7 @@
 /*icons*/
 .comverse_services_list .img {
 	background: url(../img/solutions/solution_icon_biz-analitics.png) center center;
-	width: 180px;
+	width: 100%;
 	height: 65px;
 	display: inline-block;
 }
@@ -60,3 +60,15 @@
 .personalized_choice:hover .img { background: url(../img/solutions/solution_icon_personal_hover.png) no-repeat center center; }
 .business_transformtion .img { background: url(../img/solutions/solution_icon_biz-transform.png) no-repeat center center; }
 .business_transformtion:hover .img { background: url(../img/solutions/solution_icon_biz-transform_hover.png) no-repeat center center; }
+@media only screen and (max-width: 970px) {
+	.comverse_services h2 {
+		font: 300 32px/52px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		padding: 20px 0;
+	}
+	.comverse_services li {
+		width: 26%;
+	}
+	.comverse_services h4 {
+		font: 300 13px/17px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+}

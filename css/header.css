@@ -23,6 +23,12 @@ header li {
 header .site-navigation > li  {
 	float: left;
 }
+input[type="checkbox"].search_checkbox,
+input[type="checkbox"].menu_checkbox {
+	position: absolute;
+	left: -9999999px;
+}
+.menu_btn, .search_btn_toggle{ display: none;}
 header .site-navigation > li > a {
 	padding: 10px 10px 0;
 	border: 1px solid transparent;
@@ -140,4 +146,118 @@ header .site-navigation > li > div {
 .site-navigation li:after { display: none;}
 .site-navigation li:last-child:after {
 	opacity: 0;
+}
+@media only screen and (max-width: 970px) {
+	.logo {
+		margin: auto;
+		width: 110px;
+		display: block;
+		margin: -5px auto;
+	}
+	.logo img {
+		width: 100%;
+	}
+	.login { display: none;}
+	.search_btn_toggle {
+		position: absolute;
+		right: 10px;
+		display: block;
+		top: 0;
+		background: #E6E3E3;
+		padding: 5px 10px;
+		font-size: 26px;
+		color: #3399cc;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+	}
+	#submit { display: none; }
+	input[type=checkbox].search_checkbox:checked ~ #siteSearchBox {
+		top: 46px;
+		height: 42px;
+	}
+	.search_section {
+		position: absolute;
+		width: 100%;
+		background: #fff;
+		top: 46px;
+		left: 0;
+		border: 0;
+		padding: 0;
+		border-radius: 0;
+		border-top: 1px solid #ccc;
+		transition: all 500ms;
+		height: 0;
+	}
+
+	.search_section input {
+		width: 96%;
+		margin: 7px 2%;
+		border: 1px solid #ccc;
+		padding: 5px;
+		box-sizing: border-box;
+	}
+	.search_btn_toggle {
+		position: absolute;
+		right: 10px;
+		display: block;
+		top: 0;
+	}
+	.menu_btn {
+		position: absolute;
+		left: 10px;
+		display: block;
+		top: 0;
+		background: #E6E3E3;
+		padding: 5px 10px;
+		font-size: 26px;
+		color: #B3ABB3;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+	}
+
+	input[type=checkbox].menu_checkbox:checked ~ #site-navigation-block {
+		left: 0;
+		height: 196px;
+		overflow: visible;
+	}
+	#site-navigation-block {
+		width: 100%;
+		position: absolute;
+		background: #fff;
+		z-index: 9;
+		height: 0;
+		top: 47px;
+		overflow: hidden;
+		transition: all 500ms;
+	}
+	.site-navigation {
+		margin: 0;
+		padding: 0;
+	}
+	#site-navigation-block > ul > li {
+		display: block;
+		float: none;
+		border-bottom: 1px solid #ccc;
+	}
+	#site-navigation-block > ul > li > a {
+		padding: 16px;
+		width: 100%;
+		display: block;
+		box-shadow: none;
+		border: 0;
+	}
+	.right_img {
+		display: none;
+	}
+	#site-navigation-block > ul > li > div {
+		margin: 0;
+		position: relative;
+		background: #fff;
+		overflow: auto;
+		padding: 0 20px;
+	}
+	#site-navigation-block > ul > li a:hover {
+		border: 0;
+	}
+
 }
