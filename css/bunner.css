@@ -71,7 +71,10 @@
 .comverse_services {
 	clear: both;
 }
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 770px) {
+	.slides_bunner {
+		width: 100vw;
+	}
 	.comverse_main {
 		height: auto;
 	}
@@ -79,10 +82,25 @@
 		float: none;
 		width: 100%;
 		margin: 0 0 7px 0;
+		border-radius: 0;
 		box-sizing: border-box;
 	}
 	.comverse_main_boxes:last-child {
 		margin: 0 0 7px 0;
-
 	}
+	.slids_dots li {
+		margin: 10px 6px 10px 0;
 	}
+	.comverse_main h1 {
+		margin: 10px;
+	}
+	.comverse_main  h3 {
+		margin: 10px;
+	}
+	.comverse_main .btn {
+		margin: 10px;
+	}
+	.comverse_main_boxes h3 {
+	margin: 0;
+}
+}

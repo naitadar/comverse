@@ -10,7 +10,11 @@
 	display: inline-block;
 	vertical-align: top;
 	width: 353px;
-	margin: 0 21px 0 0;
+	margin: 0 6px 0 0;
+}
+.comverse_success article:last-child {
+	margin: 0;
+	width: 232px;
 }
 .comverse_success .row {
 	background: #fff;
@@ -68,4 +72,17 @@
     vertical-align: top;
     display: inline-block;
     width: 250px;
+}
+@media only screen and (max-width: 970px) {
+	.comverse_success article {
+		margin: 0 auto;
+		display: block;
+	}
+	.comverse_success h2 {
+		font: 300 32px/42px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		padding: 20px 0;
+	}
+	.comverse_success article:last-child {
+		display: none;
+	}
 }

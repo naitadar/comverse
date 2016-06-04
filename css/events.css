@@ -65,3 +65,25 @@
 .event_box i {
 	margin: 0 5px 0 0;
 }
+@media only screen and (max-width: 970px) {
+	.comverse_events {
+		height: auto;
+	}
+	.comverse_events h2 {
+		font: 300 32px/42px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		padding: 20px 0;
+	}
+	.event_box {
+		display: block;
+		width: 87%;
+		margin: 0 auto 20px;
+	}
+	.event_box:last-child {
+		margin: 0 auto 0;
+		padding:0 0 20px 0;
+
+	}
+	.comverse_events h4 {
+		font: 400 27px/41px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+}

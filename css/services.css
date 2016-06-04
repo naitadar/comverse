@@ -62,7 +62,7 @@
 .business_transformtion:hover .img { background: url(../img/solutions/solution_icon_biz-transform_hover.png) no-repeat center center; }
 @media only screen and (max-width: 970px) {
 	.comverse_services h2 {
-		font: 300 32px/52px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 300 32px/42px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		padding: 20px 0;
 	}
 	.comverse_services li {
@@ -70,5 +70,8 @@
 	}
 	.comverse_services h4 {
 		font: 300 13px/17px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+	.comverse_solutions_link {
+		margin: 0 0 0 0;
 	}
 }

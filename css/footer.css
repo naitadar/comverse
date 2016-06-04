@@ -24,6 +24,7 @@ footer section a {
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.58);
 	background: #3b3b3b;
 	padding: 50px 20px 30px;
+	width: 24%;
 }
 .last_posts h4 {
 	text-align: center;
@@ -88,3 +89,14 @@ footer section a {
 .share_links .twitter:hover {background: url(../img/socialMenuIcon-twitter_hover.png) no-repeat;}
 .share_links .linkdin {background: url(../img/socialMenuIcon-linkdin.png) no-repeat;}
 .share_links .linkdin:hover {background: url(../img/socialMenuIcon-linkdin_hover.png) no-repeat;}
+@media only screen and (max-width: 970px) {
+	footer section {
+		padding: 20px 10px;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.last_posts {
+		padding: 30px 20px 20px;
+		width: 100%;
+	}
+}

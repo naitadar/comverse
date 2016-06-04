@@ -149,20 +149,16 @@ header .site-navigation > li > div {
 }
 @media only screen and (max-width: 970px) {
 	.logo {
-		margin: auto;
 		width: 110px;
 		display: block;
-		margin: -5px auto;
+		margin: -5px auto 1px;
 	}
 	.logo img {
 		width: 100%;
 	}
 	.login { display: none;}
 	.search_btn_toggle {
-		position: absolute;
-		right: 10px;
-		display: block;
-		top: 0;
+
 		background: #E6E3E3;
 		padding: 5px 10px;
 		font-size: 26px;
@@ -172,14 +168,14 @@ header .site-navigation > li > div {
 	}
 	#submit { display: none; }
 	input[type=checkbox].search_checkbox:checked ~ #siteSearchBox {
-		top: 46px;
+		top: 57px;
 		height: 42px;
 	}
 	.search_section {
 		position: absolute;
 		width: 100%;
 		background: #fff;
-		top: 46px;
+		top: 57px;
 		left: 0;
 		border: 0;
 		padding: 0;
@@ -200,13 +196,13 @@ header .site-navigation > li > div {
 		position: absolute;
 		right: 10px;
 		display: block;
-		top: 0;
+		top: 9px;
 	}
 	.menu_btn {
 		position: absolute;
 		left: 10px;
 		display: block;
-		top: 0;
+		top: 10px;
 		background: #E6E3E3;
 		padding: 5px 10px;
 		font-size: 26px;
@@ -226,7 +222,7 @@ header .site-navigation > li > div {
 		background: #fff;
 		z-index: 9;
 		height: 0;
-		top: 47px;
+		top: 58px;
 		overflow: hidden;
 		transition: all 500ms;
 	}
