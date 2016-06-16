@@ -44,9 +44,12 @@
 .learn_more img {
 	float: right;
 }
+.boxes_container {
+	display: flex;
+}
 .comverse_main_boxes {
 	width: 27%;
-	float: left;
+	/*float: left;*/
 	border-radius: 7px;
 	padding: 14px 11px;
 	margin: 0 32px 0 0;
@@ -77,6 +80,9 @@
 	}
 	.comverse_main {
 		height: auto;
+	}
+	.boxes_container {
+		display: block; 
 	}
 	.comverse_main_boxes {
 		float: none;
